@@ -10,7 +10,7 @@ const mongo_url = "-mongodb+srv://aitvikram:aitvikram@cluster0.uuzka.mongodb.net
 
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT;
 
 app.use(bodyParser.json());
 app.set('view engine','ejs');
