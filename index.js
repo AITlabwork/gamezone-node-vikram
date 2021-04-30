@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient;
 const mongo = require('mongodb')
 
-const mongo_url = "mongodb+srv://aitvikram:aitvikram@cluster0.uuzka.mongodb.net/gamezone?retryWrites=true&w=majority";
+const mongo_url = "-mongodb+srv://aitvikram:aitvikram@cluster0.uuzka.mongodb.net/gamezone?retryWrites=true&w=majority";
 
 
 const app = express();
